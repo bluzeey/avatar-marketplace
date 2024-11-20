@@ -26,7 +26,6 @@ export function Header({
   setSearchQuery,
   selectedCategory,
   setSelectedCategory,
-  selectedSubCategory,
   setSelectedSubCategory,
 }: HeaderProps) {
   const [showFilters, setShowFilters] = useState(false); // State to toggle filter popup

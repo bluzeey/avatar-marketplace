@@ -53,7 +53,7 @@ export default function Marketplace() {
               <Link href={`/product/${product.id}`} key={product.id}>
                 <div className="rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                   {/* Image Placeholder */}
-                  <div className="aspect-square bg-[#333333] flex items-center justify-center text-gray-400">
+                  <div className="aspect-square rounded-md bg-[#333333] flex items-center justify-center text-gray-400">
                     <span className="text-sm">{product.category}</span>
                   </div>
                   {/* Product Info */}
